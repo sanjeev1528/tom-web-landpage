@@ -11,7 +11,8 @@ html{
 }
 
 .sang-center{
-
+padding-top: 40vh;
+        margin: auto;
 }
 .topnav1 {
     background-color: #333;
