@@ -1,0 +1,362 @@
+html{
+    scroll-snap-type:y mandatory;
+}
+
+/* sangami */
+.sangami{
+    height: 100vh;
+    
+    margin: auto;
+    scroll-snap-align: center;
+}
+
+.sang-center{
+
+}
+.topnav1 {
+    background-color: #333;
+    width: 100%;
+   
+    display: flex;
+    
+  }
+  
+  
+  .topnav1  a {
+   
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 14px;
+    text-decoration: none;
+    font-size: 17px;
+    background-color: black;
+   
+  }
+  
+  /* Change the color of links on hover */
+  .topnav1 a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav1 a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+
+  .heading{
+    text-align: center;
+    
+    font-size: 24px;
+
+  }
+  .para{
+    text-align: center;
+    color: grey;
+  }
+  .button-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+  
+
+  }
+   .btn-1{
+   
+    box-shadow: 0 .7065919983928324px .7065919983928324px -.625px #00000026,0 1.8065619053231785px 1.8065619053231785px -1.25px #00000025,0 3.6217592146567767px 3.6217592146567767px -1.875px #00000023,0 6.8655999097303715px 6.8655999097303715px -2.5px #00000020,0 13.646761411524492px 13.646761411524492px -3.125px #0000001b,0 30px 30px -3.75px #0000000d;
+    display: flex;
+    flex: none;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 10px;
+    height: 40px;
+    justify-content: center;
+    overflow: visible;
+    color: #fff;
+    align-items: center;
+    font-weight: 600;
+   border-style: none;
+    border-radius: 8px;
+    background-color: #222;
+
+    padding: 15px;
+    position: relative;
+    width: auto;
+  }
+  .btn-2{
+    align-content: center;
+    align-items: center;
+    background-color: #ebebeb;
+    border-radius: 8px;
+    display: flex;
+    flex: none;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 10px;
+    height: 40px;
+    justify-content: center;
+    overflow: visible;
+    padding: 15px;
+    position: relative;
+    border-style: none;
+    width: auto;
+    border: none;
+    font-weight: 600;
+    
+  } 
+
+  
+
+
+  /*kirthivasan*/
+
+ .kirthivasan{
+ height: 100vh;
+ scroll-snap-align: center;
+ }
+
+
+ .kirthi-center{
+    padding-top: 60px;
+        margin: auto;
+ }
+
+  .left-section {
+    width: 50%;
+   
+   
+  }
+
+  .left-con{
+    width:60%;
+    margin: auto;
+    padding-top: 40px;
+    
+  }
+
+  
+
+  .right-section {
+    width: 50%;
+  
+  }
+  .main{
+    display: flex;
+    width: 100%;
+  }
+
+  /* Add additional styling as needed */
+
+  .k-img {
+    max-width: 100%;
+    height: 100%;
+  
+  
+  }
+  .black{
+    background-color: black;
+    color: white;
+    margin-right: 5px;
+  }
+
+  .silver{
+    background-color:#e5e5e5e9 ;
+    color: black;
+  }
+   .kirthi-btn{
+         border-style: none;
+          padding: 5px;
+          border-radius: 5px;
+        
+      } 
+
+
+      /*yellow*/
+.yellow{
+    height: 100vh;
+    scroll-snap-align: center;
+}
+      .y-center{
+        padding-top: 60px;
+        margin: auto;
+      }
+     .h2{
+        margin:0;
+        margin-top: 5px;
+     }
+    .y-img{
+        border-radius: 5px;
+        width: 100%;
+        height: 146px;
+        border-style: none;
+        
+    }
+    .box-1 , .box-2{
+        width: 50%;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+       
+       margin-bottom: 20px;
+        align-content: center;
+        align-items: center;
+       
+    }
+    .img-tx, .img-tx1{
+        width: 48%;
+        height: 100%;
+    }
+    .text , .text2{
+        width: 48%;
+        height: 100%;
+    }
+    
+ 
+    p{
+       color: gray;
+        font-size: 18px;
+    }
+  
+    
+    .yellow-btn{
+        padding: 5px;
+        width: 100px;
+       
+        color: white;
+       
+        background-color: black;
+     
+        border-radius: 5px;
+        box-shadow: 2px 2px #888888;
+    }
+  
+
+    
+    /* monika*/
+    .monika{
+        height: 100vh;
+        scroll-snap-align: center;
+    }
+
+    .m-center{
+        padding-top: 60px;
+        margin: auto;
+    }
+    
+
+    .monika-h1{
+        text-align: center;
+       
+        margin-top: 30px;
+        
+    }
+    table,tr,td{
+        text-align: left;
+        background-color: #e5e5e5e9;
+        border-collapse: collapse;
+    }
+    table{
+        width: 100%;
+        border-radius: 4px;
+        border-style: none;
+    }
+    .m-img{
+        width: 50px;
+        height: 50px;
+        border-radius: 20%;
+      
+    }
+    .trusted{
+      display: flex;
+      justify-content:center;
+      gap: 60px;
+      margin-top: 40px;
+    }
+    tr,td{
+        box-shadow: 0 0 .70px 0  rgba(78, 77, 77, 0.724);
+        padding: 7px;
+    }
+    .ques{
+        margin-top: 40px;
+       width: 90%;
+       margin: auto;
+    }
+
+    .text{
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+    }
+ 
+    
+
+    /*kannadi*/
+    .kannadi{
+        height: 100vh;
+        scroll-snap-align: center;
+    }
+    .k-center{
+        padding-top: 60px;
+        margin: auto;
+    }
+    .k-btn{
+        width: 100%;
+        border-radius: 4px;
+        font-size: 16px;
+        color: white;
+        padding: 5px;
+        background-color: black;
+       border-style: none;
+        margin-bottom: 30px;
+    }
+   
+    #name , #email {
+        border:none;
+        width: 38%;
+        border-radius: 5px;
+        background-color: #e5e5e5e9;
+        padding: 10px 20px 10px 20px;
+    }
+    .kannadi-div{
+        
+       
+        display: flex;
+        justify-content: center;
+        
+    }
+  
+   .kannadi-h1{
+      
+        text-align: center;
+      
+    }
+    textarea{
+  
+        border-radius: 5px;
+        border:none;
+        background-color: #e5e5e5e9;
+        width:99%; 
+       
+        
+        
+    }
+
+    .input-div{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 15px;
+    }
+
+    .t-a-div{
+        width: 100%;
+        margin-bottom: 15px;
+    }
+   
+    ::placeholder{
+        padding-left: 10px;
+    }
